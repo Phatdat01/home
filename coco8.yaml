@@ -10,22 +10,22 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ../datasets/coco8 # dataset root dir
-train: images/train # train images (relative to 'path') 4 images
-val: images/val # val images (relative to 'path') 4 images
+train: train # train images (relative to 'path') 4 images
+val: trainval # val images (relative to 'path') 4 images
 test: # test images (optional)
 
 # Classes
 names:
-  0: tuong an
-  1: maggi
-  2: ca com
-  3: hang viet
-  4: de nhi
-  5: nhat ca
-  6: cai lan
-  7: dau nanh
-  8: nam ngu
-  9: gold
+  0: ca com
+  1: cai lan
+  2: dau nanh
+  3: de nhi
+  4: gold
+  5: hang viet
+  6: maggi
+  7: nam ngu
+  8: nhat ca
+  9: tuong an
 
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco8.zip
