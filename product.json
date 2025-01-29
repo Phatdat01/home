@@ -3,10 +3,10 @@
   {"id":1,"name": "cai lan","price":40,"img":"static/uploads/CAILAN (1).jpg"},
   {"id":2,"name": "dau nanh","price":60,"img":"static/uploads/DAUNANH (1).jpg"},
   {"id":3,"name": "de nhi","price":23,"img":"static/uploads/DENHI (1).jpg"},
-  {"id":4,"name": "gold","price":45,"img":"static/uploads/GOLD (1).jpg"}
+  {"id":4,"name": "gold","price":45,"img":"static/uploads/GOLD (1).jpg"},
   {"id":5,"name": "hang viet","price":8,"img":"static/uploads/HANGVIET (1).jpg"},
   {"id":6,"name": "maggi","price":32,"img":"static/uploads/MAGI (1).jpg"},
   {"id":7,"name": "nam ngu","price":47,"img":"static/uploads/NAMNGU (1).jpg"},
   {"id":8,"name": "nhat ca","price":11,"img":"static/uploads/NHATCA (1).jpg"},
-  {"id":9,"name": "tuong an","price":48,"img":"static/uploads/TUONGAN (1).jpg"},
+  {"id":9,"name": "tuong an","price":48,"img":"static/uploads/TUONGAN (1).jpg"}
 ]
