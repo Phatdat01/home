@@ -10,6 +10,12 @@ yolo = YOLO("best.pt", task="detect")
 app = Flask(__name__)
 cors = CORS(app, resources={r"/ui/*": {"origins": "*"}})
 
+@app.route('/', methods=['POST','GET'] )
+def main():
+    return dict(
+        result= "hello"
+    )
+
 @app.route('/image', methods=['POST','GET'] )
 def image():
     img = request.files['file']
